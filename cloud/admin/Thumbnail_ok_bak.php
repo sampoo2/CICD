@@ -1,6 +1,6 @@
 <?php
 // 설정
-$uploads_dir = '/home/ubuntu';
+$uploads_dir = "./";
 $allowed_ext = array('jpg','jpeg','png','gif');
 $value = '업로드 완료되었습니다.';
 

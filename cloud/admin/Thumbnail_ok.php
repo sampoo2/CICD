@@ -21,7 +21,7 @@ $FILE_TEXT = $_POST['FILE_TEXT'];
 
 if(is_uploaded_file($_FILES['upfile']['tmp_name']))
 {
-    $destination = "../data/" . $_FILES['upfile']['name'];
+    $destination = "./" . $_FILES['upfile']['name'];
     move_uploaded_file($_FILES['upfile']['tmp_name'], $destination);
     $file_name = $_FILES['upfile']['name'];
 }

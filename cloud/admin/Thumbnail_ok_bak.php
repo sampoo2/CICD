@@ -41,7 +41,7 @@ echo "<h2>파일 정보</h2>
 	<li>확장자: $ext</li>
 	<li>파일형식: {$_FILES['myfile']['type']}</li>
 	<li>파일크기: {$_FILES['myfile']['size']} 바이트</li>
-    <li>파일이동: $move_uploaded_file</li>
+    <li>파일이동: $uploads_dir</li>
 </ul>";
 //echo "<script>alert('{$value}');</script>";
 //echo "<script>location.href='./Video.php'</script>";

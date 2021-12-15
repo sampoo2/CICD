@@ -17,7 +17,7 @@ $exist_id = mysqli_num_rows($result);
 if($exist_id){
     echo("<script>window.alert('해당 아이디가 존재합니다.');history.go(-1);</script>");exit;
 }else{
-  $sql="insert into member (id,pass,name,nick,mphone,email,regist_day) ";
+  $sql="insert into member (id,pass,name,nick,mphone,email,regist_day,MEMBER_GRADE,) ";
   $sql.="values ('".$_GET['id']."','".$_GET['passwd']."','".$_GET['name']."','".$_GET['nick']."','".$_GET['hp']."','".$_GET['e-mail']."','$regist_day', '01')";
   mysqli_query($connect, $sql);
 }

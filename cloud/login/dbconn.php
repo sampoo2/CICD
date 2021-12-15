@@ -1,8 +1,8 @@
 <?php
-$mysql_hostname = '10.0.2.211';
-$mysql_username = 'cloudadmin';
-$mysql_password = 'cloud';
-$mysql_database = 'cloud_db';
+$mysql_hostname = '10.0.0.81';
+$mysql_username = 'careadmin';
+$mysql_password = 'hackers';
+$mysql_database = 'care_db';
 
 $connect = mysqli_connect($mysql_hostname, $mysql_username, $mysql_password, $mysql_database);
 	

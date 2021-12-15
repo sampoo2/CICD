@@ -159,78 +159,33 @@
                                 </div>
 						
                                 <div class="form-group">
-                                    <label>Default Text <span class="help"> e.g. "George deo"</span></label>
+                                    <label>썸네일 일련번호 <span class="help"> e.g. "George deo"</span></label>
                                     <input type="text" class="form-control" value="George deo...">
                                 </div>
                                 <div class="form-group">
-                                    <label for="example-email">Email <span class="help"> e.g.
-                                            "example@gmail.com"</span></label>
-                                    <input type="email" id="example-email" name="example-email" class="form-control"
-                                        placeholder="Email">
-                                </div>
-                                <div class="form-group">
-                                    <label>Password</label>
-                                    <input type="password" class="form-control" value="password">
-                                </div>
-                                <div class="form-group">
-                                    <label>Placeholder</label>
+                                    <label>썸네일 이름</label>
                                     <input type="text" class="form-control" placeholder="placeholder">
                                 </div>
                                 <div class="form-group">
-                                    <label>Text area</label>
+                                    <label>메모</label>
                                     <textarea class="form-control" rows="5"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <label>Read only input</label>
-                                    <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
-                                </div>
-                                <div class="form-group">
                                     <fieldset disabled>
-                                        <label for="disabledTextInput">Disabled input</label>
+                                        <label for="disabledTextInput">관리자 명</label>
                                         <input type="text" id="disabledTextInput" class="form-control"
                                             placeholder="Disabled input">
                                     </fieldset>
-                                </div>
-                                <div class="form-group row pt-3">
-                                    <div class="col-sm-4">
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="customCheck1">
-                                            <label class="form-check-label mb-0" for="customCheck1">Check this custom
-                                                checkbox</label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="customCheck2">
-                                            <label class="form-check-label mb-0" for="customCheck2">Check this custom
-                                                checkbox</label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="customCheck3">
-                                            <label class="form-check-label mb-0" for="customCheck3">Check this custom
-                                                checkbox</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-check">
-                                            <input type="radio" id="customRadio1" name="customRadio"
-                                                class="form-check-input">
-                                            <label class="form-check-label mb-0" for="customRadio1">Toggle this custom
-                                                radio</label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input type="radio" id="customRadio2" name="customRadio"
-                                                class="form-check-input">
-                                            <label class="form-check-label mb-0" for="customRadio2">Toggle this custom
-                                                radio</label>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div>                    
                                 <div class="form-group">
                                     <label>Input Select</label>
                                     <select class="form-select shadow-none col-12" id="inlineFormCustomSelect">
                                         <option selected>Choose...</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+                                        <option value="1">영화</option>
+                                        <option value="2">유튜브</option>
+                                        <option value="3">K-POP</option>
+                                        <option value="4">Short 영상</option>
+                                        <option value="5">기타</option>
                                     </select>
                                 </div>
 

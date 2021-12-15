@@ -1,16 +1,6 @@
 <?php 
 session_start();
 
-if(! $_SESSION['userid']) {
-	echo("
-		<script>
-	     window.alert('로그인 후 이용해 주세요.')
-	     history.go(-1)
-	   </script>
-		");
-	exit;
-}
-
 $regist_day = date("Y-m-d (H:i)");
 include "../../login/dbconn.php";
 

@@ -188,13 +188,6 @@
                                         <option value="5">기타</option>
                                     </select>
                                 </div>
-
-                                <div class="form-group">
-                                    <label>Helping text</label>
-                                    <input type="text" class="form-control" placeholder="Helping text">
-                                    <span class="help-block"><small>A block of help text that breaks onto a new line and
-                                            may extend beyond one line.</small></span> 
-								</div>
 								<div class="form-group">
 									<div class="col-sm-12">
 										<button class="btn btn-success text-white">Update Profile</button>

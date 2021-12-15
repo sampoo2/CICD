@@ -178,7 +178,7 @@
                                     </fieldset>
                                 </div>                    
                                 <div class="form-group">
-                                    <label>Input Select</label>
+                                    <label>썸네일 그룹</label>
                                     <select class="form-select shadow-none col-12" name="Thumbnail_GRADE" id="Thumbnail_GRADE">
                                         <option selected>Choose...</option>
                                         <option value="01">영화</option>

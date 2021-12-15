@@ -19,8 +19,13 @@ if(is_uploaded_file($_FILES['upfile']['tmp_name']))
 $sql = "insert into greet (FILE_NAME, FILE_SEQ, FILE_GROUP, FILE_TEXT, FILE_ADMIN, REGIST_DAY)";
 $sql .= "values ('$FILE_NAME', '$FILE_SEQ', '$FILE_GROUP', '$FILE_TEXT', '$FILE_ADMIN','$REGIST_DAY')";
 
+echo '<script>'; 
+echo 'alert("FILE_NAME : '.$FILE_NAME .'");'; 
+echo '</script>';
+
 mysqli_query($connect, $sql);
 mysqli_close();
 
 
 ?>
+

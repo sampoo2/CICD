@@ -24,9 +24,11 @@ if($exist_id){
 
 mysqli_close();
 
+<!--
 echo "<script>window.alert('가입 완료');
 	location.href='../index.php';
 	</script>";
+  -->
 ?>
 
 

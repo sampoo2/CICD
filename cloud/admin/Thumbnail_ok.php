@@ -13,21 +13,22 @@ if(! $_SESSION['userid']) {
 
 $regist_day = date("Y-m-d (H:i)");
 include "../../login/dbconn.php";
-$mode = $_GET['mode'];
-$page = $_GET[page];
-$subject = $_POST['subject'];
-$content = $_POST['content'];
-$item_num = $_GET[num];
 
 $userid = $_SESSION['userid'];
-$username = $_SESSION['username'];
-$usernick = $_SESSION['usernick'];
+$FILE_SEQ = $_POST['FILE_SEQ'];
+$FILE_GROUP = $_POST['FILE_GROUP'];
+$FILE_TEXT = $_POST['FILE_TEXT'];
+
 if(is_uploaded_file($_FILES['upfile']['tmp_name']))
 {
     $destination = "../data/" . $_FILES['upfile']['name'];
     move_uploaded_file($_FILES['upfile']['tmp_name'], $destination);
     $file_name = $_FILES['upfile']['name'];
 }
+
+$sql = "insert into greet (FILE_NAME, FILE_SEQ, FILE_GROUP, FILE_TEXT, FILE_ADMIN, REGIST_DAY)";
+$sql .= "values ('$FILE_NAME', '$FILE_SEQ', '$FILE_GROUP', '$FILE_TEXT', '$userid','$REGIST_DAY')";
+
 mysqli_query($connect, $sql);
 mysqli_close();
 echo ("

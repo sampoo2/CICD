@@ -159,27 +159,27 @@
                                 </div>
 						
                                 <div class="form-group">
-                                    <label>썸네일  <span class="help">일련번호</span></label>
-                                    <input type="text" name="Thumbnail_SEQ" class="form-control">
+                                    <label>썸네일 <span class="help">일련번호</span></label>
+                                    <input type="text" name="FILE_SEQ" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label>썸네일 이름</label>
-                                    <input type="text" name="Thumbnail_NAME" class="form-control">
+                                    <input type="text" name="FILE_GROUP" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label>메모</label>
-                                    <textarea class="form-control" name="Thumbnail_TEXT" rows="5"></textarea>
+                                    <textarea class="form-control" name="FILE_TEXT" rows="5"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <fieldset disabled>
                                         <label for="disabledTextInput">관리자 명</label>
-                                        <input type="text" id="Administrator" name="Administrator" class="form-control"
+                                        <input type="text" id="FILE_ADMIN" name="FILE_ADMIN" class="form-control"
                                             placeholder="ADMIN">
                                     </fieldset>
                                 </div>                    
                                 <div class="form-group">
                                     <label>썸네일 그룹</label>
-                                    <select class="form-select shadow-none col-12" name="Thumbnail_GRADE" id="Thumbnail_GRADE">
+                                    <select class="form-select shadow-none col-12" name="FILE_GROUP" id="FILE_GROUP">
                                         <option selected>Choose...</option>
                                         <option value="01">영화</option>
                                         <option value="02">유튜브</option>

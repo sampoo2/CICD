@@ -152,40 +152,40 @@
                         <div class="card card-body">
                             <h4 class="card-title">Default Forms</h4>
                             <h5 class="card-subtitle"> All bootstrap element classies </h5>
-                            <form class="form-horizontal mt-4">
+                            <form class="form-horizontal mt-4" method="get" action="./Thumbnail_ok.php">>
                                 <div class="form-group">
                                     <label>Default file upload</label>
-                                    <input type="file" class="form-control">
+                                    <input type="file" name="upfile" class="form-control">
                                 </div>
 						
                                 <div class="form-group">
-                                    <label>썸네일 일련번호 <span class="help"> e.g. "George deo"</span></label>
-                                    <input type="text" class="form-control" value="George deo...">
+                                    <label>썸네일  <span class="help">일련번호</span></label>
+                                    <input type="text" name="Thumbnail_SEQ" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label>썸네일 이름</label>
-                                    <input type="text" class="form-control" placeholder="placeholder">
+                                    <input type="text" name="Thumbnail_NAME" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label>메모</label>
-                                    <textarea class="form-control" rows="5"></textarea>
+                                    <textarea class="form-control" name="Thumbnail_TEXT" rows="5"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <fieldset disabled>
                                         <label for="disabledTextInput">관리자 명</label>
-                                        <input type="text" id="disabledTextInput" class="form-control"
-                                            placeholder="Disabled input">
+                                        <input type="text" id="Administrator" name="Administrator" class="form-control"
+                                            placeholder="ADMIN">
                                     </fieldset>
                                 </div>                    
                                 <div class="form-group">
                                     <label>Input Select</label>
-                                    <select class="form-select shadow-none col-12" id="inlineFormCustomSelect">
+                                    <select class="form-select shadow-none col-12" name="Thumbnail_GRADE" id="Thumbnail_GRADE">
                                         <option selected>Choose...</option>
-                                        <option value="1">영화</option>
-                                        <option value="2">유튜브</option>
-                                        <option value="3">K-POP</option>
-                                        <option value="4">Short 영상</option>
-                                        <option value="5">기타</option>
+                                        <option value="01">영화</option>
+                                        <option value="02">유튜브</option>
+                                        <option value="03">K-POP</option>
+                                        <option value="04">Short 영상</option>
+                                        <option value="05">기타</option>
                                     </select>
                                 </div>
 								<div class="form-group">

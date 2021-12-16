@@ -172,7 +172,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>썸네일 이름</label>
-                                    <input type="text" name="FILE_GROUP" class="form-control">
+                                    <input type="text" name="FILE_NAME" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label>메모</label>

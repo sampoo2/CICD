@@ -19,13 +19,16 @@ if(is_uploaded_file($_FILES['upfile']['tmp_name']))
 $sql = "insert into Thumbnail (FILE_NAME, FILE_SEQ, FILE_GROUP, FILE_TEXT, FILE_ADMIN, REGIST_DAY)";
 $sql .= "values ('$FILE_NAME', '$FILE_SEQ', '$FILE_GROUP', '$FILE_TEXT', '$FILE_ADMIN','$REGIST_DAY')";
 
-//echo '<script>'; 
-//echo 'alert("FILE_NAME : '.$FILE_NAME .'");'; 
-//echo '</script>';
-
 //mysqli_query($connect, $sql);
 //mysqli_close();
 
+echo "<h2>파일 정보</h2>
+<ul>
+	<li>sql: $sql</li>
+	<li>확장자: $ext</li>
+	<li>파일형식: {$_FILES['myfile']['type']}</li>
+	<li>파일크기: {$_FILES['myfile']['size']} 바이트</li>
+</ul>";
 
 ?>
 

@@ -24,8 +24,8 @@ echo "<h2>파일 정보</h2>
 <ul>
 <li>sql: $sql</li>
 </ul>";	
-echo "<script>alert('{$value}');</script>";
-echo "<script>location.href='./Video.php'</script>";
+//echo "<script>alert('{$value}');</script>";
+//echo "<script>location.href='./Video.php'</script>";
 ?>
 
 

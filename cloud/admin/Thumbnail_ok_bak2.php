@@ -17,6 +17,13 @@ include "../login/dbconn.php";
 	$FILE_TEXT = $_POST['FILE_TEXT'];
 	$FILE_NAME = $_POST['upfile'];
 	$FILE_ADMIN = $_POST['FILE_ADMIN'];	
+
+	$sql = "insert into Thumbnail (FILE_NAME, FILE_SEQ, FILE_GROUP, FILE_TEXT, FILE_ADMIN, REGIST_DAY)";
+	$sql .= "values ('$FILE_NAME', '$FILE_SEQ', '$FILE_GROUP', '$FILE_TEXT', 'admin','$REGIST_DAY')";
+	
+	mysqli_query($connect, $sql);
+	mysqli_close();
+	
 ?>
 
 

@@ -46,7 +46,7 @@ function s3($command=null,$args=null)
 	if ($s3===null)
 	$s3 = new Aws\S3\S3Client([
 	    'version' => 'latest',
-	    'region'  => 'us-east-1',
+	    'region'  => 'ap-northeast-2',
 	    'signature_version' => 'v4',
 	        'credentials' => [
 	        'key'    => aws_key(),

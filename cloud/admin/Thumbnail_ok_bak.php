@@ -45,10 +45,10 @@ if( $error != UPLOAD_ERR_OK ) {
 }
 
 // 확장자 확인
-if( !in_array($ext, $allowed_ext) ) {
-	echo "허용되지 않는 확장자입니다.";
-	exit;
-}
+//if( !in_array($ext, $allowed_ext) ) {
+//	echo "허용되지 않는 확장자입니다.";
+//	exit;
+//}
  
 // 파일 이동
 move_uploaded_file( $_FILES['myfile']['tmp_name'], "$uploads_dir/$name");

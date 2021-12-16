@@ -26,7 +26,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="table-basic.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Video.php"
                                 aria-expanded="false">
                                 <i class="mdi mdi-border-none"></i>
                                 <span class="hide-menu">Video 등록</span>

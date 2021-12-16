@@ -182,7 +182,7 @@
                                 </div>                    
                                 <div class="form-group">
                                     <label>비디오 그룹</label>
-                                    <select class="form-select shadow-none col-12" name="VIDEO_GROUP " id="VIDEO_GROUP ">
+                                    <select class="form-select shadow-none col-12" name="VIDEO_GROUP" id="VIDEO_GROUP">
                                         <option selected>Choose...</option>
                                         <option value="01">영화</option>
                                         <option value="02">유튜브</option>

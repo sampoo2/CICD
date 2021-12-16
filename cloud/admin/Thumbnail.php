@@ -173,7 +173,7 @@
                                 <div class="form-group">
                                     <fieldset disabled>
                                         <label for="disabledTextInput">관리자 명</label>
-                                        <input type="text" id="FILE_ADMIN" name="FILE_ADMIN" class="form-control" value="test"
+                                        <input type="text" id="FILE_ADMIN" name="FILE_ADMIN" class="form-control"
                                             placeholder="ADMIN">
                                     </fieldset>
                                 </div>                    

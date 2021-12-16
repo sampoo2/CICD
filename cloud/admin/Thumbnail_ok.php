@@ -19,7 +19,7 @@ if(is_uploaded_file($_FILES['upfile']['tmp_name']))
 }
 
 $sql = "insert into Thumbnail (FILE_NAME, FILE_SEQ, FILE_GROUP, FILE_TEXT, FILE_ADMIN, REGIST_DAY)";
-$sql .= "values ('$FILE_NAME', '$FILE_SEQ', '$FILE_GROUP', '$FILE_TEXT', '$FILE_ADMIN','$REGIST_DAY')";
+$sql .= "values ('$FILE_NAME', '$FILE_SEQ', '$FILE_GROUP', '$FILE_TEXT', 'admin','$REGIST_DAY')";
 
 //mysqli_query($connect, $sql);
 //mysqli_close();

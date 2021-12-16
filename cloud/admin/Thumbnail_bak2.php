@@ -164,6 +164,19 @@
                                             <label class="custom-file-label" for="upfile">Choose file</label>
                                         </div>
                                     </div>
+                                <div class="form-group">
+                                    <label>썸네일 <span class="help">일련번호</span></label>
+                                    <input type="text" name="FILE_SEQ" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>썸네일 이름</label>
+                                    <input type="text" name="FILE_GROUP" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>메모</label>
+                                    <textarea class="form-control" name="FILE_TEXT" rows="5"></textarea>
+                                </div>                                    
+                                    
                                 </div>								
 
 								<div class="form-group">

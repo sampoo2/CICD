@@ -27,31 +27,31 @@ if( $error != UPLOAD_ERR_OK ) {
 }
 
 // 확장자 확인
-//if( !in_array($ext, $allowed_ext) ) {
-//	echo "허용되지 않는 확장자입니다.";
-//	exit;
-//}
+if( !in_array($ext, $allowed_ext) ) {
+	echo "허용되지 않는 확장자입니다.";
+	exit;
+}
  
 // 파일 이동
 move_uploaded_file( $_FILES['myfile']['tmp_name'], "$uploads_dir/$name");
 
-session_start();
+//session_start();
 
-$REGIST_DAY = date("Y-m-d (H:i)");
+//$REGIST_DAY = date("Y-m-d (H:i)");
 
 
 //$userid = $_SESSION['userid'];
-$FILE_SEQ = $_POST['FILE_SEQ'];
-$FILE_GROUP = $_POST['FILE_GROUP'];
-$FILE_TEXT = $_POST['FILE_TEXT'];
-$FILE_NAME = $_POST['myfile'];
-$FILE_ADMIN = $_POST['FILE_ADMIN'];
+//$FILE_SEQ = $_POST['FILE_SEQ'];
+//$FILE_GROUP = $_POST['FILE_GROUP'];
+//$FILE_TEXT = $_POST['FILE_TEXT'];
+//$FILE_NAME = $_POST['myfile'];
+//$FILE_ADMIN = $_POST['FILE_ADMIN'];
 
-$sql = "insert into Thumbnail (FILE_NAME, FILE_SEQ, FILE_GROUP, FILE_TEXT, FILE_ADMIN, REGIST_DAY)";
-$sql .= "values ('$FILE_NAME', '$FILE_SEQ', '$FILE_GROUP', '$FILE_TEXT', 'admin','$REGIST_DAY')";
+//$sql = "insert into Thumbnail (FILE_NAME, FILE_SEQ, FILE_GROUP, FILE_TEXT, FILE_ADMIN, REGIST_DAY)";
+//$sql .= "values ('$FILE_NAME', '$FILE_SEQ', '$FILE_GROUP', '$FILE_TEXT', 'admin','$REGIST_DAY')";
 
-mysqli_query($connect, $sql);
-mysqli_close();
+//mysqli_query($connect, $sql);
+//mysqli_close();
 
 // 파일 정보 출력
 echo "<h2>파일 정보</h2>

@@ -157,11 +157,11 @@
                                 <label>Custom File upload</label>
                                 <div class="input-group">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text">Upload</span>
+                                    <span class="input-group-text">Upload2</span>
                                 </div>
                                 <div class="custom-file">
                                     <!--<input type="file" name="upfile" class="form-control" id="upfile">-->
-                                    <input type="file" name="FILE_NAME" class="custom-file-input">
+                                    <input type="file" name="FILE_NAME">
                                     <!--<label class="custom-file-label" for="upfile">Choose file</label>-->
                                 </div>
                                 </div>

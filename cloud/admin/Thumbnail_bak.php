@@ -70,6 +70,7 @@
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
+
                     </ul>
                     <!-- ============================================================== -->
                     <!-- Right side toggle and nav items -->
@@ -151,26 +152,47 @@
                         <div class="card card-body">
                             <h4 class="card-title">Default Forms</h4>
                             <h5 class="card-subtitle"> All bootstrap element classies </h5>
-                            <form enctype='multipart/form-data' action='Thumbnail_ok_bak.php' method='post' class="form-horizontal mt-4">
-							<input type="hidden" name="MAX_FILE_SIZE" value="1000000">
+                            <form class="form-horizontal mt-4" method="post" action="./Thumbnail_ok.php">>
                                 <div class="form-group">
-                                    <label>Custom File upload</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">Upload</span>
-                                        </div>
-                                        <div class="custom-file">
-                                            <input type="file" name="myfile" class="custom-file-input" id="myfile">
-                                            <label class="custom-file-label" for="myfile">Choose file</label>
-                                        </div>
-                                    </div>
-                                </div>								
-
+                                    <label>Default file upload</label>
+                                    <input type="file" name="myfile" class="form-control" id="myfile">
+                                </div>
+						
+                                <div class="form-group">
+                                    <label>썸네일 <span class="help">일련번호</span></label>
+                                    <input type="text" name="FILE_SEQ" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>썸네일 이름</label>
+                                    <input type="text" name="FILE_GROUP" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>메모</label>
+                                    <textarea class="form-control" name="FILE_TEXT" rows="5"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <fieldset disabled>
+                                        <label for="disabledTextInput">관리자 명</label>
+                                        <input type="text" id="FILE_ADMIN" name="FILE_ADMIN" class="form-control"
+                                            placeholder="ADMIN">
+                                    </fieldset>
+                                </div>                    
+                                <div class="form-group">
+                                    <label>썸네일 그룹</label>
+                                    <select class="form-select shadow-none col-12" name="FILE_GROUP" id="FILE_GROUP">
+                                        <option selected>Choose...</option>
+                                        <option value="01">영화</option>
+                                        <option value="02">유튜브</option>
+                                        <option value="03">K-POP</option>
+                                        <option value="04">Short 영상</option>
+                                        <option value="05">기타</option>
+                                    </select>
+                                </div>
 								<div class="form-group">
 									<div class="col-sm-12">
 										<button class="btn btn-success text-white">Update Profile</button>
 									</div>
-								</div>									
+								</div>												
                             </form>
                         </div>
                     </div>

@@ -26,14 +26,14 @@ $FILE_ADMIN = $_POST['FILE_ADMIN'];
 	mysqli_query($connect, $sql);
 	mysqli_close();
 	
-	echo "<h2>파일 정보</h2>
-	<ul>
-		<li>sql: $sql</li>
-		<li>regist_day: $REGIST_DAY</li>
-		<li>FILE_NAME: $FILE_NAME</li>
-		<li>파일형식: {$_FILES['myfile']['type']}</li>
-		<li>파일크기: {$_FILES['myfile']['size']} 바이트</li>
-	</ul>";	
+//	echo "<h2>파일 정보</h2>
+//	<ul>
+//		<li>sql: $sql</li>
+//		<li>regist_day: $REGIST_DAY</li>
+//		<li>FILE_NAME: $FILE_NAME</li>
+//		<li>파일형식: {$_FILES['myfile']['type']}</li>
+//		<li>파일크기: {$_FILES['myfile']['size']} 바이트</li>
+//	</ul>";	
 ?>
 
 

@@ -1,5 +1,5 @@
 <?php
-include "../login/dbconn.php";
+//include "../login/dbconn.php";
 // 설정
 $uploads_dir = "../data/";
 $allowed_ext = array('jpg','jpeg','png','gif');

@@ -152,7 +152,7 @@
                         <div class="card card-body">
                             <h4 class="card-title">Default Forms</h4>
                             <h5 class="card-subtitle"> All bootstrap element classies </h5>
-                            <form class="form-horizontal mt-4" method="post" action="./Thumbnail_ok.php">>
+                            <form class="form-horizontal mt-4" method="post" action="Thumbnail_ok.php">>
                                 <div class="form-group">
                                     <label>Default file upload</label>
                                     <input type="file" name="upfile" class="form-control" id="upfile">

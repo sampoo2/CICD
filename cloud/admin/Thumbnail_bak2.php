@@ -176,7 +176,24 @@
                                     <label>메모</label>
                                     <textarea class="form-control" name="FILE_TEXT" rows="5"></textarea>
                                 </div>                                    
-                                    
+                                <div class="form-group">
+                                    <fieldset disabled>
+                                        <label for="disabledTextInput">관리자 명</label>
+                                        <input type="text" id="FILE_ADMIN" name="FILE_ADMIN" class="form-control"
+                                            placeholder="ADMIN">
+                                    </fieldset>
+                                </div>                    
+                                <div class="form-group">
+                                    <label>썸네일 그룹</label>
+                                    <select class="form-select shadow-none col-12" name="FILE_GROUP" id="FILE_GROUP">
+                                        <option selected>Choose...</option>
+                                        <option value="01">영화</option>
+                                        <option value="02">유튜브</option>
+                                        <option value="03">K-POP</option>
+                                        <option value="04">Short 영상</option>
+                                        <option value="05">기타</option>
+                                    </select>
+                                </div>                                    
                                 </div>								
 
 								<div class="form-group">

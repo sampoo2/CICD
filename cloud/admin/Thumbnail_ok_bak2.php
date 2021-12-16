@@ -8,7 +8,7 @@ include "../login/dbconn.php";
 $FILE_SEQ = $_POST['FILE_SEQ'];
 $FILE_GROUP = $_POST['FILE_GROUP'];
 $FILE_TEXT = $_POST['FILE_TEXT'];
-$FILE_NAME = $_POST['FILE_NAME'];
+$FILE_NAME = $_FILES['FILE_NAME']['name'];
 $FILE_ADMIN = $_POST['FILE_ADMIN'];	
 
 //	if(is_uploaded_file($_FILES['upfile']['tmp_name']))

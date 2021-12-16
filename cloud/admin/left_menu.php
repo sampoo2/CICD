@@ -12,7 +12,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Video.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Video_upload.php"
                                 aria-expanded="false">
                                 <i class="mdi mdi-account-network"></i>
                                 <span class="hide-menu">Video Upload</span>
@@ -22,14 +22,14 @@
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Thumbnail.php"
                                 aria-expanded="false">
                                 <i class="mdi mdi-arrange-bring-forward"></i>
-                                <span class="hide-menu">Thumbnail Upload</span>
+                                <span class="hide-menu">Thumbnail 등록</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="table-basic.php"
                                 aria-expanded="false">
                                 <i class="mdi mdi-border-none"></i>
-                                <span class="hide-menu">Table</span>
+                                <span class="hide-menu">Video 등록</span>
                             </a>
                         </li>
                         <li class="sidebar-item">

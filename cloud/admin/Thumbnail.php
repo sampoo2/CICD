@@ -164,6 +164,7 @@
                                     <input type="file" name="upfile" class="form-control">
                                     <!--<label class="custom-file-label" for="upfile">Choose file</label>-->
                                 </div>
+                                <br /><br />
                                 </div>
                                 <div class="form-group">
                                     <label>썸네일 <span class="help">일련번호</span></label>

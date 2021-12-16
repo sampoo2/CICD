@@ -151,7 +151,7 @@
                         <div class="card card-body">
                             <h4 class="card-title">Default Forms</h4>
                             <h5 class="card-subtitle"> All bootstrap element classies </h5>
-                            <form enctype='multipart/form-data' action='Thumbnail_ok_bak.php' method='post' class="form-horizontal mt-4">
+                            <form enctype='multipart/form-data' action='Thumbnail_ok_bak2.php' method='post' class="form-horizontal mt-4">
 							<input type="hidden" name="MAX_FILE_SIZE" value="1000000">
                                 <div class="form-group">
                                     <label>Custom File upload</label>

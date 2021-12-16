@@ -154,16 +154,17 @@
                             <form enctype='multipart/form-data' action='Thumbnail_ok_bak2.php' method='post' class="form-horizontal mt-4">
 							<input type="hidden" name="MAX_FILE_SIZE" value="1000000">
                                 <div class="form-group">
-                                    <label>Custom File upload</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">Upload</span>
-                                        </div>
-                                        <div class="custom-file">
-                                            <input name="FILE_NAME" type="file" class="custom-file-input" id="FILE_NAME">
-                                            <!--<label class="custom-file-label" for="upfile">Choose file</label>-->
-                                        </div>
-                                    </div>
+                                <label>Custom File upload</label>
+                                <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Upload</span>
+                                </div>
+                                <div class="custom-file">
+                                    <!--<input type="file" name="upfile" class="form-control" id="upfile">-->
+                                    <input type="file" name="FILE_NAME" class="custom-file-input">
+                                    <!--<label class="custom-file-label" for="upfile">Choose file</label>-->
+                                </div>
+                                </div>
                                 <div class="form-group">
                                     <label>썸네일 <span class="help">일련번호</span></label>
                                     <input type="text" name="FILE_SEQ" class="form-control">

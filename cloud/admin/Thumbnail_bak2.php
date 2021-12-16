@@ -161,7 +161,7 @@
                                         </div>
                                         <div class="custom-file">
                                             <input name="upfile" type="file" class="custom-file-input" id="upfile">
-                                            <label class="custom-file-label" for="upfile">Choose file</label>
+                                            <!--<label class="custom-file-label" for="upfile">Choose file</label>-->
                                         </div>
                                     </div>
                                 <div class="form-group">

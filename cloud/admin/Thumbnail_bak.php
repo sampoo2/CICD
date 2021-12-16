@@ -160,8 +160,8 @@
                                             <span class="input-group-text">Upload</span>
                                         </div>
                                         <div class="custom-file">
-                                            <input name='myfile' type="file" class="custom-file-input" id="upfile">
-                                            <label class="custom-file-label" for="upfile">Choose file</label>
+                                            <input type="file" name="myfile" class="custom-file-input" id="myfile">
+                                            <label class="custom-file-label" for="myfile">Choose file</label>
                                         </div>
                                     </div>
                                 </div>								

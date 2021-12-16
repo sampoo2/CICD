@@ -161,7 +161,7 @@
                                 </div>
                                 <div class="custom-file">
                                     <!--<input type="file" name="upfile" class="form-control" id="upfile">-->
-                                    <input type="text" name="FILE_NAME" class="custom-file-input">
+                                    <input type="file" name="FILE_NAME" class="custom-file-input">
                                     <!--<label class="custom-file-label" for="upfile">Choose file</label>-->
                                 </div>
                                 </div>
@@ -199,7 +199,7 @@
 
 								<div class="form-group">
 									<div class="col-sm-12">
-										<button class="btn btn-success text-white">Update Profile</button>
+										<button type="submit" class="btn btn-success text-white">Update Profile</button>
 									</div>
 								</div>									
                             </form>

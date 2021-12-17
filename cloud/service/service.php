@@ -11,7 +11,7 @@
                     <div class="row gx-5">
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0" >								
-                                <img class="card-img-top"  src="../data/202117.jpg" alt="..." />
+                                <img class="card-img-top"  src="../data/211201.jpg" alt="..." />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="video01.php"><div class="h5 card-title mb-3">Blog post title</div></a>

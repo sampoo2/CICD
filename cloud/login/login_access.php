@@ -23,6 +23,7 @@ if(! $num_match){
     $_SESSION['hp'] = $row[mphone];
     $_SESSION['e-mail'] = $row[email];
     $_SESSION['regist_day'] = $row[regist_day];
+    $_SESSION['member_grade'] = $row[member_grade];
 
     echo("<script>window.alert('로그인 성공');
            location.href = '../index.php';</script>");

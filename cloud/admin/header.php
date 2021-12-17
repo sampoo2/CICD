@@ -1,3 +1,9 @@
+<?php  
+            if(! $_SESSION['member_grade']='02')
+            echo "허용되지 않는 확장자입니다.";
+            exit;        
+?>    
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 

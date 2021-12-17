@@ -1,7 +1,18 @@
 <?php
 	//session_start();
   include "../header.php"; 
-  ?>     
+  ?>   
+  
+<style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #video{
+            width: 100%;
+            height: 100vh;
+        }
+</style>
     <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />  
             <!-- Page Content-->
             <section class="py-5">

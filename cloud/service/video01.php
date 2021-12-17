@@ -21,7 +21,7 @@
                     </div>
                     -->
                     <video id=video width=100% class="video-js" controls>
-                        <source src="https://ctp-output-videos.s3.ap-northeast-2.amazonaws.com/HLS/test_720.m3u8" type="application/x-mpegURL">
+                        <source src="https://d3oidsehp8d4ws.cloudfront.net/HLS/test_720.m3u8" type="application/x-mpegURL">
                     </video>                                       
                 </div>
             </section>

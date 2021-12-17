@@ -18,10 +18,10 @@ if (file_exists("keys.php"))
 else
 {
     function aws_key(){
-        return 'AKIAYDLQVGFNTZUQGPX2';
+        return "AKIAYDLQVGFNTZUQGPX2";
     }
     function aws_secret(){
-        return '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';
+        return "b/LzEjZbkLO3byySWe/osmHC57L7Mz3XC9GctPRx";
     }
     function bucket() {
         return "ctp-input-videos";

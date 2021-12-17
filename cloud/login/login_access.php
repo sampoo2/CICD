@@ -24,13 +24,7 @@ if(! $num_match){
     $_SESSION['e-mail'] = $row[email];
     $_SESSION['regist_day'] = $row[regist_day];
 
-    echo $_SESSION[ 'userid' ];
-    echo $_SESSION[ 'username' ];
-    echo $_SESSION[ 'usernick' ];
-    echo $_SESSION[ 'hp' ];
-    echo $_SESSION[ 'e-mail' ];
-
-    //echo("<script>window.alert('로그인 성공');
-    //       location.href = '../index.php';</script>");
+    echo("<script>window.alert('로그인 성공');
+           location.href = '../index.php';</script>");
 }
 ?>

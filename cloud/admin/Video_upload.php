@@ -24,7 +24,7 @@ else
         return 'I1a4mhNnrsPuQuwjjbO7yPTYes9EGlCkNKCjLa8K';
     }
     function bucket() {
-        return "cloudtvbucket";
+        return "ctp-input-videos";
     }
 }
 /**

@@ -18,13 +18,13 @@ if (file_exists("keys.php"))
 else
 {
     function aws_key(){
-        return 'AKIAYDLQVGFNZM36HADD';
+        return 'AKIAYDLQVGFNTZUQGPX2';
     }
     function aws_secret(){
-        return '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';
+        return 'b/LzEjZbkLO3byySWe/osmHC57L7Mz3XC9GctPRx';
     }
     function bucket() {
-        return "cloudtvbucket";
+        return "ctp-input-videos";
     }
 }
 /**

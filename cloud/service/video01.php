@@ -2,6 +2,7 @@
 	//session_start();
   include "../header.php"; 
   ?>     
+    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />  
             <!-- Page Content-->
             <section class="py-5">
                 <div class="container px-5 my-5">
@@ -13,11 +14,15 @@
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="row gx-5">
                         <div class="col-12"><img class="img-fluid rounded-3 mb-5" src="https://dummyimage.com/1300x700/343a40/6c757d" alt="..." /></div>
                         
                     </div>
-
+                    -->
+                    <video id=video width=100% class="video-js" controls>
+                        <source src="https://ctp-output-videos.s3.ap-northeast-2.amazonaws.com/HLS/test_720.m3u8" type="application/x-mpegURL">
+                    </video>                                       
                 </div>
             </section>
         </main>
@@ -40,5 +45,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="https://vjs.zencdn.net/7.8.2/video.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.15.0/videojs-contrib-hls.min.js"></script>
+        <script>
+            var player = videojs('video');
+        // player.play();
+        </script>        
     </body>
 </html>

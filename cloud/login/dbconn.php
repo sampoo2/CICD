@@ -1,7 +1,7 @@
 <?php
-$mysql_hostname = '10.0.2.211';
-$mysql_username = 'cloudadmin';
-$mysql_password = 'cloud';
+$mysql_hostname = 'ctp-db.cr8u4ixxabbu.ap-northeast-2.rds.amazonaws.com';
+$mysql_username = 'admin';
+$mysql_password = '1q2w3e4r!';
 $mysql_database = 'cloud_db';
 
 $connect = mysqli_connect($mysql_hostname, $mysql_username, $mysql_password, $mysql_database);
